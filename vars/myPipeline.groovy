@@ -11,7 +11,7 @@ pipeline {
        stage('checkout'){
            steps{
             // Get some code from a GitHub repository
-            gitCheckout(branch:"master",url:'')
+            gitCheckout(branch:"main",url:'')
 	   }
        }
       stage('Compile') {
